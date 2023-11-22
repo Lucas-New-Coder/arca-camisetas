@@ -350,6 +350,7 @@ a{
         flex-shrink: 2;
     }
     .contato-content{
+        background-color: red;
         justify-content: center;
         align-items: center;
         background-image: url('img/camisas-contato-04.png');
