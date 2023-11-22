@@ -26,3 +26,6 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+function redirecionar() {
+    
+    window.open("https://google.com", "_blank");}
