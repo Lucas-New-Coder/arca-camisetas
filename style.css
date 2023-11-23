@@ -147,7 +147,8 @@ a{
     font-weight: 900;
     font-size: 130%;
     color: #0b1b3f;
-    margin-top: 13px;
+    margin-top: 30px;
+    margin-bottom: 60px;
     cursor: pointer;
     transition: all 600ms;
 }
