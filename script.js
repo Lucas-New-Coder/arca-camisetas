@@ -29,3 +29,10 @@ document.addEventListener("DOMContentLoaded", function() {
 function redirecionar() {
     
     window.open("https://google.com", "_blank");}
+
+    function toggleMenu() {
+        var nav = document.querySelector('nav');
+        var hamburgerMenu = document.querySelector('.hamburger-menu');
+        nav.classList.toggle('active');
+        hamburgerMenu.classList.toggle('change');
+    }
