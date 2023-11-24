@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 function redirecionar() {
     
-    window.open("https://google.com", "_blank");}
+    window.open("https://wa.me/5531988207824?text=Ol%C3%A1%21+Entrei+em+contato+pelo+site%2C+gostaria+de+mais+informa%C3%A7%C3%B5es", "_blank");}
 
     function toggleMenu() {
         var nav = document.querySelector('nav');
