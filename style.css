@@ -132,6 +132,8 @@ a{
 }
 .MainText p{
     line-height: 22pt;
+    color: #8495c7;
+    font-weight: 700;
 }
 .orçamento{
     width: 400px;
@@ -164,6 +166,7 @@ a{
         background-size: 70%;
         background-repeat: no-repeat;
         background-position: center bottom;
+        
     }
     .inicio-content img{
         display: none;
@@ -196,9 +199,9 @@ a{
 }
 .conteudo img{
     padding-top: 50px;
-    margin-left: 10px;
-    margin-right: 10px;
-    width: 350px;
+    margin-left: 90px;
+    margin-right: 90px;
+    height: 306px;
 }
 .produtos-content p{
     padding-top: 25px;
