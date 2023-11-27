@@ -15,6 +15,7 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   padding: 0;
   font-weight: normal;
   font-family: 'Montserrat', sans-serif;
+
 }
 
 h1{
@@ -105,20 +106,23 @@ a{
 /* Início */
 #inicio{
     background-color: #0b1b3f;
+    overflow: hidden;
 }
 .inicio-content{
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    overflow: hidden;
 }
 .inicio-content img{
     max-width: 450px;
-   
+    overflow: hidden;
     align-self: flex-end;
     flex-shrink: 10;
 }
 .MainText{
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     color: white;
@@ -177,6 +181,7 @@ a{
 /* fim inicio */
 /* Produtos aqui */
 .produtos-content{
+    overflow: hidden;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -186,6 +191,7 @@ a{
 .produtos-content h1{
     padding-top: 30px;
     color: #0b1b3f;
+    overflow: hidden;
 
 }
 .produtos-content p{
@@ -194,6 +200,7 @@ a{
 }
 
 .conteudo{
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -239,6 +246,7 @@ a{
 
 /* contato aqui */
 .contato-content{
+    overflow: hidden;
     background-color: #0b1b3f;
     display: flex;
     justify-content: space-around; 
@@ -254,12 +262,14 @@ a{
     font-size: 230%;
 }
 .contato-text{
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
 
 }
 .contato-text img{
+    overflow: hidden;
     max-width: 40px;
     margin-right: 10px;
 }
@@ -271,6 +281,7 @@ a{
     font-size: 300%;
 }
 .camisas-contato{
+    overflow: hidden;
     max-height: 560px;
     flex-shrink: 10;
 }
