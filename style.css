@@ -387,7 +387,7 @@ a{
         background-position: center bottom;
     }
     .camisa-reader {
-        display: none;
+        display: none ;
     }
     .orçamento, .orçamento2{
         max-width: 200px;
